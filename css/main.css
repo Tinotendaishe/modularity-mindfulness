@@ -62,17 +62,22 @@ h2-english {
 }
 
 nav ul {
-
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
-
+  display: inline-block;
+  list-style-type: none;
 }
 
 a {
   color: #3783a3;
   text-decoration: underline;
   display: inline-block;
+  margin: 0 .5rem;
 }
 
 .intro {
@@ -92,7 +97,10 @@ a {
 
 .learn {
   text-decoration: none;
-  padding: 0;
+  font-weight: normal;
+  font-size: 1rem;
+  border: .2rem solid #3783a3;
   border-radius: .3rem;
-  border: .2rem;
+  padding: .5em 1em .6em;
+  margin: 0;
 }
