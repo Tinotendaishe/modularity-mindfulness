@@ -29,25 +29,52 @@ html {
 
 body {
   margin: 0;
+  font-size: 1rem;
+  margin: 1.5rem;
+  padding: .5em 1em .6em;
 }
 
 img {
   display: block;
   width: 100%;
+
 }
 
 header {
-
+  padding: 1rem;
 }
 
 h1 {
-
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
 }
 
+.rock {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
 nav ul {
 
 }
 
 nav li {
 
+}
+
+a {
+  color: #3783a3;
+  text-decoration: underline;
+  display: block;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.intro-english {
+  text-align: center;
+  margin: 0;
 }
